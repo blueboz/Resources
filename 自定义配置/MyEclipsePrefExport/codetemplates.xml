@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="false" context="methodcomment_context" deleted="false" description="Comment for non-overriding methods" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.methodcomment" name="methodcomment">/**
+ * @Name: ${enclosing_method}
+ * @Dscription: 系统登陆的首页面
+ * @Author: blueboz
+ * @Version: V1.00
+ * @CreateDate: ${date}
+ * @Parameter: ${tags}
+ * @Return: ${return_type}
+ */</template></templates>

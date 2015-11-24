@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eclipse-userlibraries version="2">
+    <library name="C3P0" systemlibrary="false">
+        <archive path="E:/WebDev/JavaWeb/C3P0/c3p0-0.9.2-pre1.jar"/>
+        <archive path="E:/WebDev/JavaWeb/C3P0/mchange-commons-0.2.jar"/>
+    </library>
+    <library name="Hibernate" systemlibrary="false">
+        <archive path="E:/WebDev/Hibernate/Hibernate依赖jar包/antlr-2.7.6.jar"/>
+        <archive path="E:/WebDev/Hibernate/Hibernate依赖jar包/commons-collections-3.1.jar"/>
+        <archive path="E:/WebDev/Hibernate/Hibernate依赖jar包/dom4j-1.6.1.jar"/>
+        <archive path="E:/WebDev/Hibernate/Hibernate依赖jar包/hibernate3.jar"/>
+        <archive path="E:/WebDev/Hibernate/Hibernate依赖jar包/hibernate-jpa-2.0-api-1.0.0.Final.jar"/>
+        <archive path="E:/WebDev/Hibernate/Hibernate依赖jar包/javassist-3.12.0.GA.jar"/>
+        <archive path="E:/WebDev/Hibernate/Hibernate依赖jar包/jta-1.1.jar"/>
+        <archive path="E:/WebDev/Hibernate/Hibernate依赖jar包/slf4j-api-1.6.1.jar"/>
+    </library>
+    <library name="jdbc-driver" systemlibrary="false">
+        <archive path="E:/WebDev/JavaWeb/Jdbc驱动mysq驱动/mysql-connector-java-5.1.13-bin.jar"/>
+    </library>
+    <library name="Spring-Aop" systemlibrary="false">
+        <archive path="E:/WebDev/Spring/AOP/aopalliance.jar"/>
+        <archive path="E:/WebDev/Spring/AOP/aspectjrt.jar"/>
+        <archive path="E:/WebDev/Spring/AOP/aspectjweaver.jar"/>
+        <archive path="E:/WebDev/Spring/AOP/spring-aop-3.2.5.RELEASE.jar"/>
+    </library>
+    <library name="Spring-Core" systemlibrary="false">
+        <archive path="E:/WebDev/Spring/Spring依赖/commons-logging-1.1.1.jar"/>
+        <archive path="E:/WebDev/Spring/Spring依赖/spring-beans-3.2.5.RELEASE.jar"/>
+        <archive path="E:/WebDev/Spring/Spring依赖/spring-context-3.2.5.RELEASE.jar"/>
+        <archive path="E:/WebDev/Spring/Spring依赖/spring-core-3.2.5.RELEASE.jar"/>
+        <archive path="E:/WebDev/Spring/Spring依赖/spring-expression-3.2.5.RELEASE.jar"/>
+    </library>
+    <library name="Spring-Jdbc" systemlibrary="false">
+        <archive path="E:/WebDev/Spring/JDBC/spring-jdbc-3.2.5.RELEASE.jar"/>
+    </library>
+    <library name="Spring-Orm" systemlibrary="false">
+        <archive path="E:/WebDev/Spring/ORM/spring-orm-3.2.5.RELEASE.jar"/>
+    </library>
+    <library name="Spring-Tx" systemlibrary="false">
+        <archive path="E:/WebDev/Spring/Tx/spring-tx-3.2.5.RELEASE.jar"/>
+    </library>
+    <library name="Spring-Web" systemlibrary="false">
+        <archive path="E:/WebDev/Spring/Web/spring-web-3.2.5.RELEASE.jar"/>
+        <archive path="E:/WebDev/Spring/Web/struts2-spring-plugin-2.3.4.1.jar"/>
+    </library>
+    <library name="Struts2" systemlibrary="false">
+        <archive path="E:/WebDev/Struts2/Struct2依赖jia包/依赖包/commons-fileupload-1.2.2.jar"/>
+        <archive path="E:/WebDev/Struts2/Struct2依赖jia包/依赖包/commons-io-2.0.1.jar"/>
+        <archive path="E:/WebDev/Struts2/Struct2依赖jia包/依赖包/commons-lang3-3.1.jar"/>
+        <archive path="E:/WebDev/Struts2/Struct2依赖jia包/依赖包/freemarker-2.3.19.jar"/>
+        <archive path="E:/WebDev/Struts2/Struct2依赖jia包/依赖包/javassist-3.11.0.GA.jar"/>
+        <archive path="E:/WebDev/Struts2/Struct2依赖jia包/依赖包/ognl-3.0.5.jar"/>
+        <archive path="E:/WebDev/Struts2/Struct2依赖jia包/依赖包/struts2-core-2.3.4.1.jar"/>
+        <archive path="E:/WebDev/Struts2/Struct2依赖jia包/依赖包/xwork-core-2.3.4.1.jar"/>
+    </library>
+</eclipse-userlibraries>
