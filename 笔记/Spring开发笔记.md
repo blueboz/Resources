@@ -47,6 +47,7 @@ Spring的配置文件的名称可以是beans.xml，也可以是applicationContex
 		<param-name>
 			contextConfigLocation
 		</param-name>
+<<<<<<< HEAD
 
 		<param-value>
 			classpath:beans.xml
@@ -197,6 +198,27 @@ Spring的配置文件的名称可以是beans.xml，也可以是applicationContex
 	)	
 
 
+=======
+
+		<param-value>
+			classpath:beans.xml
+		</param-value>
+	</context-param>
+	
+	<!--监听器-->
+	<listener>
+		<listener-class>
+			org.springframework.web.context.ContextLoaderListener
+		</listener-class>
+	</listener>
+
+这里一定要配置。对于web程序启动时，自动执行该监听器，创建IOC容器，并通过DI注入对象。
+从而监听访问的页面。对页面要求创建对象提供支持 
+
+当然	测试时候如果用实现ApplicationContext接口的类读取ClassPathXmlApplicationContext读取的话。是不走监听器的。                    
+
+### 使用注解方式实现AOP（Aspect Orient Program） ###
+>>>>>>> 5c5ddf4d29d6d0ceddecbb83b8f09686fcd3561f
 1.开启注解扫描,注解扫描功能是一个共有的功能，所以存在于context命名空间里面
     
 	<context:component-scan base-package="cn.itcast.e_aop_anno">
@@ -295,10 +317,17 @@ Spring的配置文件的名称可以是beans.xml，也可以是applicationContex
 		####################################################
 	    #<aop:config>
 		#	一共有2种方式指定切面类
+<<<<<<< HEAD
 		#		第一种，自定义切面类
 		#		第二种，内置事务增强类
 		#	<aop:aspect></aop:aspect>通过指定切面类，用在自定义切面类上
 		#	<aop:advise></aop:advise>通过指定增强事务代理类，用在事务上，通知
+=======
+		#		第一种，自定义
+		#		第二种，内置事务增强类
+		#	<aop:aspect></aop:aspect>通过指定切面类，用在自定义切面类上
+		#	<aop:advise></aop:advise>通过指定增强事务代理类，用在事务上
+>>>>>>> 5c5ddf4d29d6d0ceddecbb83b8f09686fcd3561f
 		#</aop:config>
 		####################################################
 		-->
